@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(160, 34, 97) rebeccapurple;
+}
+
+.calc1 {
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    transform: 0.25px;
+    width: 100%;
+}
+
+#display {
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    width: 10%;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    border: 2px solid black;
+    color: balck;
+    text-align: center;
+}
+
+.btnDesign {
+    width: 245;
+    height: 150;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    color: blueviolet;
+    margin: 1.5;
+    border-radius: 30px;
+}
+
+.operatorDesign {
+    width: 245;
+    height: 150;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    color: black;
+    margin: 1.5;
+    border-radius: 30px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.operatorDesign:hover {
+    background-color: blueviolet;
+}
+
+#zero {
+    width: 245;
+    height: 300;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 30;
+    font-weight: 300;
+    color: red;
+    margin: 10;
+    border-radius: 10px;
+    transition: 0.05px;
+    cursor: pointer;
+}
+
+#zero:hover {
+    background-color: hotpink;
+}
+
+#frame {
+    color: seagreen;
+    background-image: url(website-background.jpg);
+    width: 100%;
+    height: 100%;
+}
